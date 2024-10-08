@@ -50,11 +50,14 @@ A full-stack coffee-ordering web application built with **Next.js**, **React**, 
 ## Screenshots 📸
 
 ### Home Page
-<img width="843" alt="截屏2024-10-07 下午7 48 10" src="https://github.com/user-attachments/assets/b763df28-4eee-477b-be71-c78f6dc2694b">
+![image](https://github.com/user-attachments/assets/dbc02425-c255-40a4-8b7c-cedbebfe36e4)
+
+
 
 
 ### Menu Page
-<img width="320" alt="截屏2024-10-07 下午7 49 19" src="https://github.com/user-attachments/assets/16c9257d-ad67-4594-92f4-9f352a204571">
+![image](https://github.com/user-attachments/assets/30845ea0-10f7-4c12-a754-27af7ed3ae33)
+
 
 
 ## Performance Optimization 💡
