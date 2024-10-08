@@ -1,21 +1,42 @@
 # Coffee Ordering App ☕️
 
-A full-stack coffee-ordering web application built with **Next.js**, **React**, and **Node.js**. This app allows users to browse a coffee menu, select customizations (e.g., cup size, add-ons), and place orders. It features an optimized user experience, modular design, and efficient state management.
+A full-stack coffee ordering web application that allows users to browse a menu, add items to their cart, place orders, and make payments securely. It supports user authentication and integrates with Stripe for payment processing.
 
-## Features 🚀
-- Browse and order from a customizable coffee menu.
-- Choose cup sizes and add-ons (milk, syrups, extra shots).
-- Responsive design for a seamless experience on desktop and mobile.
-- Optimized image loading with lazy loading for improved performance.
-- Secure user authentication and payment processing.
-- Real-time updates to the shopping cart.
-- Modularized component structure for easier scalability and maintainability.
+## Features
 
-## Tech Stack 🛠️
-- **Frontend**: Next.js, React, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Other Tools**: REST APIs, Git, Vercel (for deployment)
+- 🛠 **User Authentication**: Login/Register via Google or custom credentials using NextAuth.js.
+- 🛒 **Menu & Cart**: Browse the coffee menu, add items to the cart, and place orders.
+- 💳 **Payment Integration**: Secure payments using Stripe.
+- 📦 **Order Management**: Users can view and manage their order history.
+- 🖼 **Profile & File Upload**: Users can upload profile pictures through AWS S3.
+- 🛡 **Security**: Passwords are hashed using bcrypt for secure credential storage.
+
+## Tech Stack
+
+### Frontend
+- **Next.js**: React framework for server-side rendering and static generation.
+- **Tailwind CSS**: Utility-first CSS framework for responsive design.
+- **React-Hot-Toast**: Toast notifications.
+- **React-Flying-Item**: Cart item animations for a smooth user experience.
+
+### Backend
+- **Next.js API Routes**: Server-side logic for handling requests.
+- **MongoDB**: NoSQL database to store user and order data.
+- **Mongoose**: ODM for MongoDB to structure and manage data.
+- **bcrypt**: For password hashing and user authentication.
+
+### Other Tools
+- **AWS S3**: Used for file storage (e.g., profile pictures).
+- **Stripe**: Secure payment processing.
+- **NextAuth.js**: Authentication using Google or credentials.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/coffee-ordering-app.git
+
 
 ## Installation & Setup ⚙️
 
