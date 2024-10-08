@@ -30,13 +30,6 @@ A full-stack coffee ordering web application that allows users to browse a menu,
 - **Stripe**: Secure payment processing.
 - **NextAuth.js**: Authentication using Google or credentials.
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/coffee-ordering-app.git
-
 
 ## Installation & Setup ⚙️
 
